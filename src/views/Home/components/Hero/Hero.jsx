@@ -57,12 +57,12 @@ const Hero = () => {
       <div
         onClick={toggle}
         onMouseDown={toggle}
-        className="py-5 w-2/5 animate-floating  cursor-grab  active:cursor-grabbing active:animate-spin hover:animate-floatingExcited "
+        className="py-5 w-2/5 animate-floating  cursor-grab  select-none active:cursor-grabbing active:animate-spin hover:animate-floatingExcited "
       >
         <img
           src={pigsPainting}
           alt=""
-          className="border-amber-500  border h-auto w-full rounded-lg "
+          className="border-amber-500  border h-auto w-full rounded-lg  "
         />
       </div>
     </section>
